@@ -1,16 +1,12 @@
 import Card from "./Card";
-export default function Main() {
+export default function Main({products}) {
     return (
       <main>
         <div className="row">
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
+          {
+            products.map(product=><Card product={product}/>)
+          }
+       
         </div>
       </main>
     );

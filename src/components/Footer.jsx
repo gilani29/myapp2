@@ -3,7 +3,7 @@ export default function Footer() {
     <footer>
       <nav className="navbar bg-body-tertiary">
         <div className="container-fluid">
-          <span className="navbar-text">Designed by: AGS js</span>
+          <span className="navbar-text">Designed by:</span>
         </div>
       </nav>
     </footer>
