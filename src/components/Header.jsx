@@ -26,7 +26,7 @@ export default function Header() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  Link 1
                 </a>
               </li>
               <li className="nav-item dropdown">
